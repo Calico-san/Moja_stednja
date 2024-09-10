@@ -31,7 +31,7 @@ Podaci o uplatama, isplatama i trenutnoj štednji po namjeni su vizualizirani u 
 ## Pokretanje
 
 1. Preuzeti projekt putem terminala naredbom *https://github.com/Calico-san/Moja_stednja.git*
-2. Otvoriti direktorij projekta naredbom *cd Moja_stednja*
-3. Napraviti Docker image naredbom *docker build -t moja_stednja*
+2. Navigirati do direktorija projekta naredbom *cd*
+3. Napraviti Docker image naredbom *docker build -t moja_stednja .*
 4. Pokrenuti Docker container naredbom *docker run -p 5001:8080 moja_stednja* (**Napomena**: Možete koristiti bilo koji slobodan port na vašem računalu umjesto 5001)
 5. Pokrenuti aplikaciju putem Docker Desktop-a ili unosom *localhost:5001* u web preglednik
